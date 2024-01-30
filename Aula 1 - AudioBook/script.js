@@ -9,15 +9,15 @@ let taTocando = false;
 let capitulo = 1;
 
 function tocarFaixa() {
-  botaoPlayPause.classList.remove("bi-play-circle-fill");
-  botaoPlayPause.classList.add("bi-pause-circle-fill");
+  botaoPlayPause.classList.remove("bi-play-circle");
+  botaoPlayPause.classList.add("bi-pause-circle");
   audio.play();
   taTocando = true;
 }
 
 function pausarFaixa() {
-    botaoPlayPause.classList.add("bi-play-circle-fill");
-    botaoPlayPause.classList.remove("bi-pause-circle-fill");
+    botaoPlayPause.classList.add("bi-play-circle");
+    botaoPlayPause.classList.remove("bi-pause-circle");
     audio.pause();
     taTocando = false;
   }

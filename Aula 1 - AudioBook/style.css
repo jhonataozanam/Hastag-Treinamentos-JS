@@ -28,11 +28,16 @@ button {
 }
 
 #informacoes-faixa {
+  font-family: 'Courier New', Courier, monospace;
   display: flex;
   flex-direction: column;
   align-items: center;
   margin: 2rem 0 1rem 0;
   font-size: 1.5rem;
+}
+
+#capitulo {
+  margin-bottom: 2rem;
 }
 
 
